@@ -39,9 +39,15 @@ module ChefServerIngredientsCookbook
       ctl_cmds[pkg]
     end
 
-    def local_provider
-      return Chef::Provider::Package::Dpkg if node['platform_family'] == 'debian'
-      return Chef::Provider::Package::Rpm if node['platform_family'] == 'rhel'
+    def local_resource
+      case node['platform_family']
+      when 'debian'
+        :dpkg_package
+      when 'rhel'
+        :rpm_package
+      else
+        :package
+      end
     end
 
     def ctl_command
