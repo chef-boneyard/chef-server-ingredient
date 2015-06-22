@@ -7,4 +7,4 @@ description 'Manages Chef Server packages/add-ons, aka "ingredients"'
 source_url 'https://github.com/chef-cookbooks/chef-server-ingredient'
 issues_url 'https://github.com/chef-cookbooks/chef-server-ingredient/issues'
 
-depends 'chef-ingredient'
+depends 'chef-ingredient', '= 0.5.0'

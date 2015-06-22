@@ -2,7 +2,7 @@
 
 This cookbook is deprecated. Use [chef-ingredient](https://supermarket.chef.io/cookbooks/chef-ingredient).
 
-The chef-ingredient cookbook has the `chef_server_ingredient` resource as a compatibility shim only, and consumers of that resource are recommended to switch to the `chef_ingredient` resource immediately.
+The chef-ingredient cookbook has the `chef_server_ingredient` resource as a compatibility shim only, and consumers of that resource need to switch to the `chef_ingredient` resource immediately. For now this cookbook depends specifically on version 0.5.0 of chef-ingredient. A refactor to use product names instead of package names will break the ability to use `chef_server_ingredient` in this way.
 
 License and Author
 ------------------

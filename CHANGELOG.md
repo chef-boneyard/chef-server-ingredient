@@ -1,10 +1,10 @@
 chef-server-ingredients CHANGELOG
 =================================
 
-v0.5.0 (2015-06-18)
+v0.5.0 (2015-06-22)
 -------------------
 
-- use chef-ingredient
+- Final release, this cookbook is **deprecated**. Use chef-ingredient.
 
 v0.4.0 (2015-06-11)
 -------------------
