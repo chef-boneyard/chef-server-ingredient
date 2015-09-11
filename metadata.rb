@@ -1,5 +1,5 @@
 name 'chef-server-ingredient'
-version '0.5.1'
+version '0.5.2'
 maintainer 'Chef Software, Inc.'
 maintainer_email 'cookbooks@chef.io'
 license 'Apache 2.0'
@@ -7,4 +7,4 @@ description 'Manages Chef Server packages/add-ons, aka "ingredients"'
 source_url 'https://github.com/chef-cookbooks/chef-server-ingredient'
 issues_url 'https://github.com/chef-cookbooks/chef-server-ingredient/issues'
 
-depends 'chef-ingredient', '= 0.11.2'
+depends 'chef-ingredient', '= 0.11.3'

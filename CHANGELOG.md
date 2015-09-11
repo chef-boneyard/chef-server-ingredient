@@ -1,6 +1,13 @@
 chef-server-ingredients CHANGELOG
 =================================
 
+v0.5.2 (2015-09-11)
+-------------------
+
+- Another dependency update for `chef-ingredient`, because:
+
+https://github.com/chef-cookbooks/chef-ingredient/commit/949f6f54079a28121c9505e9bffbf36b218f7ecb#diff-e360fa10c8346d468ba143afceecbc62L25
+
 v0.5.1 (2015-09-11)
 -------------------
 
