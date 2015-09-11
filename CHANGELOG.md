@@ -1,6 +1,11 @@
 chef-server-ingredients CHANGELOG
 =================================
 
+v0.5.1 (2015-09-11)
+-------------------
+
+- Update the dependency on `chef-ingredient` that has backwards-compatibility properties. But really. Stop using this cookbook. :-)
+
 v0.5.0 (2015-06-22)
 -------------------
 
